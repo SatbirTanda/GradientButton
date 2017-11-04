@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'GradientButton_Example' do
+  pod 'GradientButton', :path => '../'
+
+  target 'GradientButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
