@@ -1,12 +1,12 @@
 //
 //  SSTViewController.h
-//  GradientButton
+//  GradientButton_Example
 //
-//  Created by satbirtanda on 11/03/2017.
-//  Copyright (c) 2017 satbirtanda. All rights reserved.
+//  Created by Satbir Tanda on 11/5/17.
+//  Copyright © 2017 satbirtanda. All rights reserved.
 //
 
-@import UIKit;
+#import <UIKit/UIKit.h>
 
 @interface SSTViewController : UIViewController
 

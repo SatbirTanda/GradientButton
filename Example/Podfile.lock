@@ -1,0 +1,16 @@
+PODS:
+  - GradientButton (0.1.0)
+
+DEPENDENCIES:
+  - GradientButton (from `../`)
+
+EXTERNAL SOURCES:
+  GradientButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GradientButton: d13b980c4b0becd97f55421b77a5368de4879299
+
+PODFILE CHECKSUM: 19ef2a0e15707a6d0f8235f054a6df2d91cc980a
+
+COCOAPODS: 1.2.1

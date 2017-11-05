@@ -1,29 +1,28 @@
 //
 //  SSTViewController.m
-//  GradientButton
+//  GradientButton_Example
 //
-//  Created by satbirtanda on 11/03/2017.
-//  Copyright (c) 2017 satbirtanda. All rights reserved.
+//  Created by Satbir Tanda on 11/5/17.
+//  Copyright © 2017 satbirtanda. All rights reserved.
 //
 
 #import "SSTViewController.h"
-
-@interface SSTViewController ()
-
-@end
+#import "SSTGradientButton.h"
 
 @implementation SSTViewController
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    SSTGradientButton *button = [[SSTGradientButton alloc] initWithFrame:CGRectMake(100, 100, 100, 100) withColors:@[UIColor.redColor, UIColor.blueColor] andFadeOrientation:FadeOrientationDiagonalBottomLeft];
+    [button setTitle:@"Click Me" forState:UIControlStateNormal];
+    [button addTarget:self action:@selector(didTapButton) forControlEvents:UIControlEventTouchDown];
+    [self.view addSubview:button];
 }
 
-- (void)didReceiveMemoryWarning
+- (void)didTapButton
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    NSLog(@"Tap");
 }
 
 @end
