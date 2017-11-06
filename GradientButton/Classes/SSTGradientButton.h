@@ -12,7 +12,7 @@ typedef NS_ENUM(NSInteger, FadeOrientation)
     FadeOrientationHorizontal,
     FadeOrientationVertical,
     FadeOrientationDiagonalTopRight,
-    FadeOrientationDiagonalBottomLeft,
+    FadeOrientationDiagonalBottomLeft
 };
 
 @interface SSTGradientButton : UIButton
