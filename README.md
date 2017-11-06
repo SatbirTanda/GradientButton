@@ -17,7 +17,7 @@ GradientButton is available through [CocoaPods](http://cocoapods.org). To instal
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'GradientButton'
+pod 'GradientButton', :git => 'https://github.com/SatbirTanda/GradientButton'
 ```
 
 ## Author
